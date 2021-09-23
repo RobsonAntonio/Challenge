@@ -1,0 +1,124 @@
+@charset "UTF-8";
+html{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #1f273c;
+    margin: 0;
+}
+.mes{
+    padding-top: 5px;
+    margin-left: 10px;
+    color: white;
+}
+
+.top-header {
+    height: 50px;
+    position: absolute;
+    top: 20px;
+    left: 290px;      
+}
+
+.top-header-sinal{
+    background:#00d1aa ;
+    display: inline-block;
+    border-radius: 50%;
+}
+.top-header-sinal-avancar{
+    background:#ff038c ;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 66em;
+}
+
+.top-nav{
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: right;
+    padding-right: 10px;
+}
+.top-nav-linha1,.top-nav-linha2,.top-nav-linha3,.top-nav-linha4,.top-nav-linha5,.top-nav-linha6{
+    color: white;
+    display: grid;
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(7, 1fr);
+    text-align: right;
+}
+
+.box1,.box7{
+    border: 1px solid #2f374c;
+    background:#262e43; 
+    padding-right: 10px;   
+}
+.box2,.box3,.box4,.box5,.box6  {
+    border: 1px solid #2f374c;
+    background:#1f273c;
+    padding-right: 10px;
+}
+.top-nav-linha3 .lembrete{
+    background: #00d1aa;
+    padding-right: 25px;
+    width: 180px;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 0 20px  20px 0;
+
+}
+.agendar {
+   padding-right: 5px;
+}
+
+.top-nav-linha1 .agendar{
+    display: inline-block;
+    background:#ff038c ;
+    margin-top: 2px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;    
+}
+
+
+.lembrete fieldset {
+    background: #ccc;
+    width: 170px;
+    font-family: sans-serif;
+    margin-top: 2px;
+    background-color: #161d30;
+    border: 1px solid #2f374c;
+    border-radius: 0 30px 30px;
+       
+}
+.div{
+    position: absolute;
+    padding: 10px;
+   padding-top: 0;
+}
+
+.agenda{
+    position: absolute ;
+    margin-top: 50px;
+   padding-left: 50%;   
+  
+}
+
+.texto{
+    background: #363d50;
+    margin-top: 15px;
+    padding: 5px;
+    border: none;
+   
+}
+.btn{
+    margin-top: 15px;
+    margin-left: 90px;
+    background:#ff038c;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    padding: 10px;
+}
+
+  
